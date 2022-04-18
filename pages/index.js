@@ -24,12 +24,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          {users.map((user) => (
-            <a href="#" key={user.id} className={styles.card}>
-              <h2>{user.name}</h2>
-              <p>{user.description}</p>
-            </a>
-          ))}
+          <h1 className="">HomePage</h1>
         </div>
       </main>
     </div>
